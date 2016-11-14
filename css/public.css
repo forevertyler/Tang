@@ -1,0 +1,80 @@
+html, body, div, span,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,img, ins, kbd, q, s, samp, small, strike, strong, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baselinebaseline; background: transparent; }
+ol, ul {list-style: none; }
+
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ”; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+.header {
+	width: 100%;
+  margin-bottom: 5px;
+	background: url(../images/top_bg.png) no-repeat;
+	background-size:100%;
+	-webkit-background-size:100%;
+	
+}
+.logo {
+  padding-top: 12px;
+	width: 25%;
+	height: 56px;
+	float: left;
+}
+.nav ul li{float: left;}
+.lang a.m1 {
+    background-image: url(http://www.tangce.net/images/TCE_13.jpg);
+}
+.lang a.m2 {
+    background-image: url(http://www.tangce.net/images/TCE_14.jpg);
+}
+.lang a.m3 {
+    background-image: url(http://www.tangce.net/images/TCE_15.jpg);
+}
+.lang a {
+   
+    display: block;
+    width: 80px;
+    text-align: center;
+    color: #333;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.nav .dropdown{display: none;}
+@media screen and (max-width:640px){
+  .logo{padding-top: 0;}
+  .nav ul{
+    display: none;
+  }
+  .nav .dropdown{
+    display: block;
+  }
+  .nav span{
+    font-size: 30px;
+    padding-top: 8px;
+    color: #b5b6b6;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width:768px){
+  .carousel-indicators{
+    display: none;
+  }
+}
+.bottom_banner {
+    height: 60px;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.bottom_banner a {
+    text-decoration: none;
+    color: #666;
+    outline: none;
+}
+footer{
+  margin-bottom: 20px;
+}
